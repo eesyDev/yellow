@@ -114,7 +114,7 @@
     );
     wow.init();
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 1600) {
+        if ($(this).scrollTop() > 1200) {
             $('.chevron').fadeIn();
         } else {
             $('.chevron').fadeOut();
